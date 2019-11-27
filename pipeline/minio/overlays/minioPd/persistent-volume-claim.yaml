@@ -4,4 +4,4 @@ metadata:
   name: $(minioPvcName)
 spec:
   volumeName: $(minioPvName)
-  storageClassName: "nas"
+  storageClassName: alicloud-nas
