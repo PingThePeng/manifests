@@ -27,7 +27,7 @@ spec:
           value: /whoami
         - name: INGRESS_NAME
           value: $(ingressName)
-        image: gcr.io/kubeflow-images-public/ingress-setup:latest
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/ingress-setup:unknown
         name: backend-updater
         volumeMounts:
         - mountPath: /var/envoy-config/

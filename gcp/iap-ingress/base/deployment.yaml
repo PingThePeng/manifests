@@ -54,7 +54,7 @@ spec:
           value: http://localhost:8001
         - name: USE_ISTIO
           value: "true"
-        image: gcr.io/kubeflow-images-public/ingress-setup:latest
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/ingress-setup:unknown
         name: iap
         volumeMounts:
         - mountPath: /var/envoy-config/

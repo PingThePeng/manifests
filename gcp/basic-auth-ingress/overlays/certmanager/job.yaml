@@ -17,7 +17,7 @@ spec:
           value: $(hostname)
         - name: INGRESS_NAME
           value: $(ingressName)
-        image: gcr.io/kubeflow-images-public/ingress-setup:latest
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/ingress-setup:unknown
         name: bootstrap
         volumeMounts:
         - mountPath: /var/ingress-config/

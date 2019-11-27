@@ -11,7 +11,7 @@ spec:
       - command:
         - sh
         - /var/webhook-config/create_ca.sh
-        image: gcr.io/kubeflow-images-public/ingress-setup:latest
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/ingress-setup:unknown
         name: bootstrap
         volumeMounts:
         - mountPath: /var/webhook-config/
