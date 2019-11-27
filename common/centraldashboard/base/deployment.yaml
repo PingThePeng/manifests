@@ -15,7 +15,7 @@ spec:
         app: centraldashboard
     spec:
       containers:
-      - image: gcr.io/kubeflow-images-public/centraldashboard
+      - image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/centraldashboard
         imagePullPolicy: IfNotPresent
         name: centraldashboard
         ports:
