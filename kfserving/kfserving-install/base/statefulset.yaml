@@ -39,7 +39,7 @@ spec:
               fieldPath: metadata.namespace
         - name: SECRET_NAME
           value: kfserving-webhook-server-secret
-        image: gcr.io/kfserving/kfserving-controller
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/kfserving-controller
         imagePullPolicy: Always
         name: manager
         ports:
