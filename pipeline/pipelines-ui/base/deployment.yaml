@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: ml-pipeline-ui
-        image: gcr.io/ml-pipeline/frontend
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/frontend
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000

@@ -11,9 +11,9 @@ configMapGenerator:
 - name: ui-parameters
   env: params.env
 images:
-- name: gcr.io/ml-pipeline/frontend
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/frontend
   newTag: 0.1.31
-  newName: gcr.io/ml-pipeline/frontend
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/frontend
 vars:
 - name: ui-namespace
   objref:

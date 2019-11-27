@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: manager
-        image: gcr.io/kubeflow-images-public/notebook-controller:v20190614-v0-160-g386f2749-e3b0c4
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/notebook-controller:6490f73700
         command:
           - /manager
         env:

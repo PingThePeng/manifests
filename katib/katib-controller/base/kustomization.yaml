@@ -21,15 +21,15 @@ configMapGenerator:
 generatorOptions:
   disableNameSuffixHash: true
 images:
-- name: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-controller
   newTag: v0.7.0
-  newName: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller
-- name: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-controller
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-manager
   newTag: v0.7.0
-  newName: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager
-- name: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-manager
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-ui
   newTag: v0.7.0
-  newName: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui
+  newName: gregistry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-ui
 - name: mysql
   newTag: "8"
   newName: mysql

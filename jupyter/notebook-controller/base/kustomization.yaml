@@ -13,9 +13,9 @@ commonLabels:
   app: notebook-controller
   kustomize.component: notebook-controller
 images:
-- name: gcr.io/kubeflow-images-public/notebook-controller
-  newName: gcr.io/kubeflow-images-public/notebook-controller
-  digest: sha256:6490f737000bd1d2520ac4b8cbde2b09749cdb291b1967ddda95d05131db49db
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/notebook-controller
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/notebook-controller
+  newTag: 6490f73700
 configMapGenerator:
 - name: parameters
   env: params.env

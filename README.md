@@ -1,6 +1,10 @@
 # Manifests
 This repo is a [bespoke configuration](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#bespoke-configuration) of kustomize targets used by kubeflow. These targets are traversed by kubeflow's CLI `kfctl`. Each target is compatible with the kustomize CLI and can be processed indendently by kubectl or the kustomize command.
 
+为解决gcr.io 镜像无法拉取从0.7 版本分出来的，镜像导入到阿里云镜像站，同时更改了镜像名，把原镜像@sha256:digest的镜像也打了默认的标签:unknown
+
+暂时支持的是[kfctl_k8s_istio](https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/)
+
 ## Organization
 Subdirectories within the repo hold kustomize targets (base or overlay subdirectory). Overlays contain additional functionality and multiple overlays may be mixed into the base (described below). Both base and overlay targets are processed by kfctl during generate and apply phases and is detailed in [Kfctl Processing](#kfctl-processing).
 

@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: katib-manager
-        image: gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager
+        image: registry.cn-zhangjiakou.aliyuncs.com/aimyth/katib-manager
         imagePullPolicy: IfNotPresent
         env:
           - name : DB_NAME

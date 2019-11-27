@@ -14,10 +14,12 @@ configMapGenerator:
 - name: profiles-parameters
   env: params.env
 images:
-- name: gcr.io/kubeflow-images-public/profile-controller
-  digest: sha256:9b834c9d44f9e4e8d5b9f8f01645afb84d5b3debcb177f3e49eac8ee46ae239d
-- name: gcr.io/kubeflow-images-public/kfam
-  digest: sha256:3b0d4be7e59a3fa5ed1d80dccc832312caa94f3b2d36682524d3afc4e45164f0
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/profile-controller
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/profile-controller
+  newTag: 9b834c9d44
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/kfam
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/kfam
+  newTag: 3b0d4be7e5
 vars:
 - name: admin
   objref:

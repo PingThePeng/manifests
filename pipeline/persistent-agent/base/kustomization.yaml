@@ -9,6 +9,6 @@ resources:
 - deployment.yaml
 - service-account.yaml
 images:
-- name: gcr.io/ml-pipeline/persistenceagent
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/persistenceagent
   newTag: 0.1.31
-  newName: gcr.io/ml-pipeline/persistenceagent
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/persistenceagent

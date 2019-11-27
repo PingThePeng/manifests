@@ -11,6 +11,6 @@ resources:
 - deployment.yaml
 - service-account.yaml
 images:
-- name: gcr.io/ml-pipeline/viewer-crd-controller
+- name: registry.cn-zhangjiakou.aliyuncs.com/aimyth/viewer-crd-controller
   newTag: 0.1.31
-  newName: gcr.io/ml-pipeline/viewer-crd-controller
+  newName: registry.cn-zhangjiakou.aliyuncs.com/aimyth/viewer-crd-controller
